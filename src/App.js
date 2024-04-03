@@ -2,6 +2,7 @@ import './App.css';
 import Picture from './practice/Picture';
 import Dateandtime from './practice/Dateandtime';
 import Miniproject from './practice/Miniproject';
+import Calculater from './practice/calculater/Calculater';
 
 function App() {
 
@@ -16,9 +17,10 @@ function App() {
         </div>
       </div> */}
 
-      <Dateandtime />
-      <Picture />
-      <Miniproject />
+      {/* <Dateandtime /> */}
+      {/* <Picture /> */}
+      {/* <Miniproject /> */}
+      <Calculater/>
 
     </>
 
