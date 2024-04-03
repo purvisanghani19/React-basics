@@ -1,6 +1,6 @@
 import './App.css';
-import Picture from './Picture';
-import Dateandtime from './thapa practice/Dateandtime';
+import Picture from './practice/Picture';
+import Dateandtime from './practice/Dateandtime';
 
 function App() {
 
