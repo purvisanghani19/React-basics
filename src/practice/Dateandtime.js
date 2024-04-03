@@ -16,4 +16,4 @@ const Dateandtime = () => {
     )
 }
 
-export default Dateandtime
+export default Dateandtime;

@@ -1,12 +1,12 @@
 import './App.css';
 import Picture from './practice/Picture';
 import Dateandtime from './practice/Dateandtime';
+import Miniproject from './practice/Miniproject';
 
 function App() {
 
   return (
-    <div className="App">
-
+    <>
       {/* <div class="container">
         <div class="card" style={{ width: "18rem" }}>
           <div class="card-body">
@@ -18,9 +18,13 @@ function App() {
 
       <Dateandtime />
       <Picture />
+      <Miniproject />
+
+    </>
 
 
-    </div>
+
+
   );
 }
 
