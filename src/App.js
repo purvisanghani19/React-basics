@@ -3,6 +3,7 @@ import Picture from './practice/Picture';
 import Dateandtime from './practice/Dateandtime';
 import Miniproject from './practice/Miniproject';
 import Calculater from './practice/calculater/Calculater';
+import Cards from './practice/Props/Cards';
 
 function App() {
 
@@ -20,7 +21,8 @@ function App() {
       {/* <Dateandtime /> */}
       {/* <Picture /> */}
       {/* <Miniproject /> */}
-      <Calculater/>
+      {/* <Calculater/> */}
+      <Cards/>
 
     </>
 

@@ -1,0 +1,9 @@
+.main-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-top{
+    max-height: 425px;
+}
