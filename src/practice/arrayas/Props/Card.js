@@ -1,17 +1,11 @@
 import React from 'react';
 
-
-
-
 const Card = (props) => {
-
-    console.log(props);
-
+    // console.log(props);
 
     return (
         <>
-    
-            <div className="card" style={{ width: "18rem" ,margin:"50px" }}>
+            <div className="card1" style={{ width: "18rem" ,margin:"50px" }}>
                 <img className="card-img-top" src={props.img} alt="Card image cap" />
                 <div className="card-body">
                     <h5 className="card-title" style={{textTransform:"uppercase"}}>{props.title}</h5>
@@ -19,8 +13,6 @@ const Card = (props) => {
                     <a href={props.link} className="btn btn-primary" target='_suits'>Watch Now</a>
                 </div>
             </div>
-
-      
         </>
     )
 }
