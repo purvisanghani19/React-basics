@@ -13,13 +13,15 @@ const Cards = () => {
       <h1 className='heading'>
         List of top 5 netflix series
       </h1>
-      {
-        Sdata.map((val) => {
-          <div className='main-card'>
-            <Card img={val.img} title={val.title} link={val.link} />
-          </div>
-        })
-      }
+      <div className='main-card'>
+        {
+          Sdata.map((val) => {
+            return (
+              <Card img={val.img} title={val.title} link={val.link} />
+            )
+          })
+        }
+      </div>
 
     </>
   )
