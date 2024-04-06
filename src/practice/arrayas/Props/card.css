@@ -4,7 +4,6 @@
     align-items: center;
 
 }
-
 .card-img-top {
     max-height: 425px;
 }
@@ -39,5 +38,4 @@ body {
     color: white;
     font-weight: 300;
     font-size: 22px;
-
 }

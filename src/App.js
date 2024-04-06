@@ -5,6 +5,7 @@ import Miniproject from './practice/Miniproject';
 import Calculater from './practice/calculater/Calculater';
 import Cards from './practice/arrayas/Props/Cards';
 import Slot from './practice/slot machine/Slot';
+import Increment from './practice/Hooks/Increment';
 
 function App() {
 
@@ -24,8 +25,8 @@ function App() {
       {/* <Miniproject /> */}
       {/* <Calculater/> */}
       {/* <Cards/> */}
-      <Slot/>
-
+      {/* <Slot/> */}
+      <Increment/>
     </>
 
 
