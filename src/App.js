@@ -7,6 +7,7 @@ import Cards from './practice/arrayas/Props/Cards';
 import Slot from './practice/slot machine/Slot';
 import Increment from './practice/Hooks/Increment';
 import Clock from './practice/Digital clock/Clock';
+import Changecolor from './practice/Evants/Changecolor';
 
 function App() {
 
@@ -28,7 +29,8 @@ function App() {
       {/* <Cards/> */}
       {/* <Slot/> */}
       {/* <Increment/> */}
-      <Clock/>
+      {/* <Clock/> */}
+      <Changecolor/>
     </>
 
 
