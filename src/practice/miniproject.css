@@ -9,7 +9,7 @@ body {
 }
 
 
-.mini-div{
+.mini-div {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -18,13 +18,34 @@ body {
     margin-top: -30px;
 }
 
-.mini-class{
+.mini-class {
     padding: 20px 20px;
     background-color: #8C6A5D;
-    color:#EEE4B1;
+    color: #EEE4B1;
     border-radius: 20px;
 }
 
-span{
-    color:#E5E483;
+span {
+    color: #E5E483;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section {
+    flex-basis: 45%;
+    text-align: center;
+    color: white;
+}
+.bt-in{
+    border: 1px solid #dee2e6;
+    background-color: #dee2e6;
+    height: 45px;
+    width: 32%;
+    cursor: pointer;
 }
