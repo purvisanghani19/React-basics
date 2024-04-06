@@ -6,6 +6,7 @@ import Calculater from './practice/calculater/Calculater';
 import Cards from './practice/arrayas/Props/Cards';
 import Slot from './practice/slot machine/Slot';
 import Increment from './practice/Hooks/Increment';
+import Clock from './practice/Digital clock/Clock';
 
 function App() {
 
@@ -26,7 +27,8 @@ function App() {
       {/* <Calculater/> */}
       {/* <Cards/> */}
       {/* <Slot/> */}
-      <Increment/>
+      {/* <Increment/> */}
+      <Clock/>
     </>
 
 

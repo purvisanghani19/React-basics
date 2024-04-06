@@ -8,8 +8,6 @@ const Increment = () => {
     const [stat, setStat] = useState(0);
     const [time, setTime] = useState(ct);
 
-
-
     const clickinc = () => {
         setStat(stat + 1);
     };
@@ -18,7 +16,6 @@ const Increment = () => {
         ct= new Date().toLocaleTimeString();
         setTime(ct);
     }
-
 
     return (
         <>

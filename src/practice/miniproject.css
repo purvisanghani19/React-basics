@@ -8,7 +8,6 @@ body {
     font-style: normal;
 }
 
-
 .mini-div {
     width: 100%;
     height: 100vh;
@@ -42,10 +41,48 @@ span {
     text-align: center;
     color: white;
 }
-.bt-in{
+
+.bt-in {
     border: 1px solid #dee2e6;
     background-color: #dee2e6;
     height: 45px;
     width: 32%;
     cursor: pointer;
+}
+
+/* digital clock ------------------------------------------------------------------------*/
+
+.clock {
+    color: white;
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.mini1-div {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+/* slot-machine ---------------------------------------------------*/
+.slot-span {
+    font-family: cursive;
+    font-weight: 600;
+}
+.head-slot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slot-p{
+    color: white;
+    font-weight: 300;
+    font-size: 22px;
 }

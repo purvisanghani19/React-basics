@@ -1,5 +1,5 @@
 import React from 'react';
-import '../arrayas/Props/card.css';
+import '../miniproject.css';
 
 const Slot = () => {
 

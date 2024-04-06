@@ -1,12 +1,18 @@
+body {
+    background-color: #5f6164;
+}
+
 .main-card {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
+
 .card-img-top {
     max-height: 425px;
 }
+
 .heading {
     text-transform: uppercase;
     background-color: #4e565e;
@@ -18,24 +24,4 @@
     letter-spacing: 2px;
     font-size: 33px;
     font-weight: 500;
-}
-
-body {
-    background-color: #5f6164;
-}
-/* slot-machine ---------------------------------------------------*/
-.slot-span {
-    font-family: cursive;
-    font-weight: 600;
-}
-.head-slot {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.slot-p{
-    color: white;
-    font-weight: 300;
-    font-size: 22px;
 }
