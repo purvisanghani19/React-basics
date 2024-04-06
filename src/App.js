@@ -4,6 +4,7 @@ import Dateandtime from './practice/Dateandtime';
 import Miniproject from './practice/Miniproject';
 import Calculater from './practice/calculater/Calculater';
 import Cards from './practice/arrayas/Props/Cards';
+import Slot from './practice/slot machine/Slot';
 
 function App() {
 
@@ -22,7 +23,8 @@ function App() {
       {/* <Picture /> */}
       {/* <Miniproject /> */}
       {/* <Calculater/> */}
-      <Cards/>
+      {/* <Cards/> */}
+      <Slot/>
 
     </>
 

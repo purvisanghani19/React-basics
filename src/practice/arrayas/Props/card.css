@@ -1,15 +1,14 @@
-.main-card{
+.main-card {
     display: flex;
     justify-content: center;
     align-items: center;
-  
+
 }
 
-
-.card-img-top{
+.card-img-top {
     max-height: 425px;
 }
-.heading{
+.heading {
     text-transform: uppercase;
     background-color: #4e565e;
     color: white;
@@ -22,6 +21,23 @@
     font-weight: 500;
 }
 
-body{
+body {
     background-color: #5f6164;
+}
+/* slot-machine ---------------------------------------------------*/
+.slot-span {
+    font-family: cursive;
+    font-weight: 600;
+}
+.head-slot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slot-p{
+    color: white;
+    font-weight: 300;
+    font-size: 22px;
+
 }
