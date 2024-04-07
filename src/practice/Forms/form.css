@@ -1,0 +1,49 @@
+  .input-form {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #12372A;
+      font-family: "Reem Kufi Fun", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+      flex-direction: column;
+  }
+
+  .input-detail {
+      color: #ADBC9F;
+  }
+
+  .input {
+      width: 28%;
+      height: 6%;
+      background-color: #ADBC9F;
+      border: none;
+      color: #381205;
+      font-weight: bold;
+      font-size: 20px;
+  }
+
+  .input:focus {
+      outline: none;
+      border: none;
+  }
+
+  .input-btn {
+      border: none;
+      margin-top: 20px;
+      height: 42px;
+      width: 10%;
+      border-radius: 8px;
+      text-transform: uppercase;
+      font-weight: 400;
+      background-color: #50623A;
+      color: #DBE7C9;
+  }
+
+  .input-btn:focus {
+      outline: none;
+      border: none;
+  }

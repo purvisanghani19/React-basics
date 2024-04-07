@@ -8,6 +8,7 @@ import Slot from './practice/slot machine/Slot';
 import Increment from './practice/Hooks/Increment';
 import Clock from './practice/Digital clock/Clock';
 import Changecolor from './practice/Evants/Changecolor';
+import Form from './practice/Forms/Form';
 
 function App() {
 
@@ -30,7 +31,8 @@ function App() {
       {/* <Slot/> */}
       {/* <Increment/> */}
       {/* <Clock/> */}
-      <Changecolor/>
+      {/* <Changecolor/> */}
+      <Form/>
     </>
 
 
