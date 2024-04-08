@@ -10,18 +10,18 @@ const Form = () => {
     setName(event.target.value)
   }
 
-  const inName = () => {
+  const inName = (e) => {
+    e.preventDefault();
     setFullname(name)
   }
-
-
-
   return (
-    <div className="input-form">
-      <h1 className='input-detail'>Hello,{fullname}  </h1>
-      <input type='text' className='input' placeholder='Enter your name' onChange={iname} value={name} />
-      <button type='submit' className='input-btn' onClick={inName}>Submit</button>
-    </div>
+    <form onSubmit={inName}>
+      <div className="input-form">
+        <h1 className='input-detail'>Hello,{fullname}  </h1>
+        <input type='text' className='input' placeholder='Enter your name' onChange={iname} value={name} />
+        <button type='submit' className='input-btn'>Submit</button>
+      </div>
+    </form>
   )
 }
 

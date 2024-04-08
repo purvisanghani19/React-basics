@@ -9,6 +9,7 @@ import Increment from './practice/Hooks/Increment';
 import Clock from './practice/Digital clock/Clock';
 import Changecolor from './practice/Evants/Changecolor';
 import Form from './practice/Forms/Form';
+import Multipalinput from './practice/Forms/Multipalinput';
 
 function App() {
 
@@ -32,7 +33,8 @@ function App() {
       {/* <Increment/> */}
       {/* <Clock/> */}
       {/* <Changecolor/> */}
-      <Form/>
+      {/* <Form/> */}
+      <Multipalinput/>
     </>
 
 
