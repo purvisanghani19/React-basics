@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './form.css';
-
+    
 const Multipalinput = () => {
 
     const obj = {
@@ -10,7 +10,7 @@ const Multipalinput = () => {
 
     const [login, setLogin] = useState(obj);
 
-    console.log('login', login) 
+    // console.log('login', login) 
 
     const handlelogin = (e) => {
         const name = e.target.name;

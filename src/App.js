@@ -10,6 +10,7 @@ import Clock from './practice/Digital clock/Clock';
 import Changecolor from './practice/Evants/Changecolor';
 import Form from './practice/Forms/Form';
 import Multipalinput from './practice/Forms/Multipalinput';
+import Todo from './practice/todo list/Todo';
 
 function App() {
 
@@ -34,7 +35,8 @@ function App() {
       {/* <Clock/> */}
       {/* <Changecolor/> */}
       {/* <Form/> */}
-      <Multipalinput/>
+      {/* <Multipalinput/> */}
+      <Todo/>
     </>
 
 
