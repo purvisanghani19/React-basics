@@ -11,6 +11,7 @@ import Changecolor from './practice/Evants/Changecolor';
 import Form from './practice/Forms/Form';
 import Multipalinput from './practice/Forms/Multipalinput';
 import Todo from './practice/todo list/Todo';
+import Inc from './practice/Increment/decrement/Inc';
 
 function App() {
 
@@ -36,7 +37,8 @@ function App() {
       {/* <Changecolor/> */}
       {/* <Form/> */}
       {/* <Multipalinput/> */}
-      <Todo/>
+      {/* <Todo/> */}
+      <Inc/>
     </>
 
 
