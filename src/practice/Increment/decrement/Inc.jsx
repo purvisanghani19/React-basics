@@ -1,4 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import IndeterminateCheckBoxRoundedIcon from '@mui/icons-material/IndeterminateCheckBoxRounded';
+import AddBoxRoundedIcon from '@mui/icons-material/AddBoxRounded';
+
+
 
 const Inc = () => {
 
@@ -23,8 +27,8 @@ const Inc = () => {
 
         <>
             <p>{Inc}</p>
-            <button onClick={inccrement}>+</button>
-            <button onClick={decrement}>-</button>
+            <AddBoxRoundedIcon onClick={inccrement} />
+            <IndeterminateCheckBoxRoundedIcon onClick={decrement} />
         </>
     )
 }

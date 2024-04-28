@@ -12,6 +12,7 @@ import Form from './practice/Forms/Form';
 import Multipalinput from './practice/Forms/Multipalinput';
 import Todo from './practice/todo list/Todo';
 import Inc from './practice/Increment/decrement/Inc';
+import Useeffect from './practice/Useeffect';
 
 function App() {
 
@@ -38,7 +39,8 @@ function App() {
       {/* <Form/> */}
       {/* <Multipalinput/> */}
       {/* <Todo/> */}
-      <Inc/>
+      {/* <Inc/> */}
+      <Useeffect/>
     </>
 
 
