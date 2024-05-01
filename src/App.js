@@ -1,4 +1,4 @@
-import './App.css';
+// import './App.css';
 import Picture from './practice/Picture';
 import Dateandtime from './practice/Dateandtime';
 import Miniproject from './practice/Miniproject';
@@ -13,6 +13,7 @@ import Multipalinput from './practice/Forms/Multipalinput';
 import Todo from './practice/todo list/Todo';
 import Inc from './practice/Increment/decrement/Inc';
 import Useeffect from './practice/Useeffect';
+import Api from './practice/axios/Api';
 
 function App() {
 
@@ -40,7 +41,8 @@ function App() {
       {/* <Multipalinput/> */}
       {/* <Todo/> */}
       {/* <Inc/> */}
-      <Useeffect/>
+      {/* <Useeffect/> */}
+      <Api/>
     </>
 
 
