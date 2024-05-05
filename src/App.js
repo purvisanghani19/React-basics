@@ -1,4 +1,4 @@
-// import './App.css';
+import './App.css';
 import Picture from './practice/Picture';
 import Dateandtime from './practice/Dateandtime';
 import Miniproject from './practice/Miniproject';
@@ -14,6 +14,13 @@ import Todo from './practice/todo list/Todo';
 import Inc from './practice/Increment/decrement/Inc';
 import Useeffect from './practice/Useeffect';
 import Api from './practice/axios/Api';
+import About from './practice/React router/About';
+import Error from './practice/React router/Error';
+import { Route, Routes } from 'react-router';
+import Menu from './practice/React router/Menu';
+import Useparams from './practice/React router/Useparams';
+import Login from './practice/Login/Registration/Login';
+import Regi from './practice/Login/Regi';
 
 function App() {
 
@@ -42,7 +49,20 @@ function App() {
       {/* <Todo/> */}
       {/* <Inc/> */}
       {/* <Useeffect/> */}
-      <Api/>
+      {/* <Api/> */}
+
+
+      <Menu />
+      <Routes>
+        <Route exact path='/' element={<About />}></Route>
+        <Route exact path='/contact/:id?' element={<Useparams />}></Route>
+        <Route exact path='/login' element={<Login />}></Route>
+        <Route exact path='/registration' element={<Regi />}></Route>
+      </Routes>
+
+
+      
+
     </>
 
 
